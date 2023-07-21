@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+  font-family: "Bruno Ace SC", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+  max-width: 1296px;
+  margin: auto;
+}
+.d-flex{
+  display: flex;
+  justify-content:space-between;
+}
+.nav{
+  gap: 61px;
+  margin-top: 40px;
+}
+.nav li{
+  font-size: 16px;
+  color:  #D1D1D1;
+  width: 306px;
+}
+.nav li:last-child{
+  text-align: right;
+}
+.header{
+  margin-top: 72px;
+  align-items: center;
+}
+.headerText{
+  padding-left: 24px;
+  position: relative;
+}
+.headerText h2{
+  font-size: 64px;
+}
+.headerText h1{
+  font-size: 128px;
+  color: #00FFA3;
+  text-align: right;
+}
+.headerText a{
+  background-color: #fff;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 64px;
+  position: absolute;
+  right: 0;
+  line-height: 24px;
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+}
+.introduction{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  margin-top: 72px;
+}
+.introText, .introImge{
+  margin-top: 160px;
+}
+.introText h3{
+  font-size: 64px;
+}
+.introText p{
+  font-size: 24px;
+  margin-top: 36px;
+  width: 526px;
+}
+.sprIcon{
+  margin-top: 32px;
+  justify-content: flex-start;
+}
+.introImge{
+  gap: 24px;
+  padding-bottom: 160px;
+}
+.card{
+  background-color: #fff;
+  color: #15161D;
+}
+.cards{
+  margin: 206px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards li{
+  width: 306px;
+  border: solid 1px #E3E3E3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin: 0px 24px 24px 0px;
+}
+.card h5{
+  font-size: 20px;
+}
+.about{
+  margin-top: 150px;
+}
+.about h2{
+  font-size: 64px;
+}
+.about p{
+  width: 526px;
+  margin-top: 32px;
+  font-size: 24px;
+}
+.contact{
+  background: linear-gradient(to bottom, #070217 100%, #191932 89%);
+}
+.contactText{
+  margin: 127px 0px;
+  display: flex;
+}
+.contactText h2{
+  font-size: 64px;
+  padding-right: 16px;
+}
+.contactImge{
+  gap:20px;
+  display: flex;
+  margin: 96px 0px;
+}
+.contactImge img{
+  width: 162px;
+  height: 162px;
+}
+.contactImge img:hover{
+  cursor: pointer;
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+  transform: translateY(-5px);
+}
+.project{
+  background: #fff;
+  color: #000;
+}
+.project h2{
+  padding: 160px 0px 0px 550px;
+  font-size: 64px;
+}
+.proEnd, .proEnd p{
+  margin-left: 24px;
+}
+.proTop{
+  margin-bottom: 28px;
+}
+.proStart, .proBotton{
+  padding-bottom: 160px;
+}
+.footer{
+  padding: 40px 0px;
+  text-align: center;
+}
